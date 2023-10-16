@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="./javascript/login.js"></script>
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Login-Pokemon</title>
+    <script type="module" src="./javascript/SingUp.js"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Register-Pokemon</title>
   </head>
   <body>
     <section>
       <h2>Login</h2>
-      <form id="loginForm" action="">
+      <form id="signUpForm" action="">
+        <label>Name:</label>
+        <input type="text" placeholder="..." id="name" required autofocus>
         <label>Email:</label>
         <input type="email" placeholder="..." id="email" required autofocus>
         <label>Password:</label>
         <input type="password" placeholder="..." id="password" required autofocus>
-        <input type="submit" value="Login">
+        <input type="submit" value="Register">
       </form>
-      <p>No tienes una cuenta ? <a href="./signUp/signUp.html">SingUp</a></p>
+      <p>Ya tienes una cuenta? <a href="../index.html">Login</a></p>
     </section>
   </body>
 </html>
