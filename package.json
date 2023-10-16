@@ -1,0 +1,18 @@
+{
+  "name": "pokedex-js",
+  "version": "2.0.0",
+  "main": "main.js",
+
+  "scripts": {
+    "start": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint *.js src/**/*.js",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "test": "jest"
+    
+  },
+  "devDependencies": {
+    "vite": "^4.4.11"
+  }
+}
